@@ -1,0 +1,25 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "events": "^3.3.0",
+    "express": "^4.18.2",
+    "mariadb": "^3.2.3",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "winston": "^3.11.0",
+    "ws": "^8.16.0"
+  }
+}
